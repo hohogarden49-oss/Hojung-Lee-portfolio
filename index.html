@@ -13,7 +13,7 @@ img{max-width:100%}
 <title>Hojung Lee Finish Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
 </head>
 <body>
 <style>
@@ -23,11 +23,11 @@ img{max-width:100%}
   --moss:#E7E0D2;        /* raised surface */
   --bone:#141414;        /* primary text: near black */
   --lichen:#5F5B53;      /* secondary text, warm grey */
-  --copper:#B0602F;      /* signature accent, deepened for ivory */
+  --copper:#9E4F1E;      /* signature accent, deepened for ivory */
   --line:rgba(20,20,20,.16);
-  --f-display:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
-  --f-body:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
-  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --f-display:"Inter Tight",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-body:"Inter Tight",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   --gut:max(16px, env(safe-area-inset-left,0px));
   --gutR:max(16px, env(safe-area-inset-right,0px));
   color-scheme:light;
@@ -225,7 +225,8 @@ a.cp-btn{text-decoration:none;display:inline-block}
 
 /* ---------- section heads ---------- */
 .sec{padding-block:clamp(72px,11vw,150px)}
-.eyebrow{color:var(--copper);margin:0 0 18px}
+.eyebrow{color:var(--copper);font-weight:500;margin:0 0 18px}
+.index .n,.ta-label,.intern .when,.divider .mono{color:var(--copper);font-weight:500}
 .h2{font-family:var(--f-display);font-weight:500;font-size:clamp(36px,5vw,72px);line-height:1.1;letter-spacing:-.035em;margin:0;text-wrap:balance}
 .lede{max-width:52ch;color:var(--lichen);font-size:18px;margin:20px 0 0}
 
